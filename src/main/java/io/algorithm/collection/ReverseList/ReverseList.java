@@ -91,6 +91,51 @@ public class ReverseList {
 
     }
 
+    /**
+     * 给定一个链表，两两交换其中相邻的节点，并返回交换后的链表。如：给定1-》2-》3-》4，你应该返回2-》1-》4-》3
+     * @param head
+     * @return
+     */
+    public ListNode swapPairs(ListNode head){
+
+       ListNode dump = new ListNode(0);
+       dump.next = head;
+       head = dump;
+
+       while(head.next != null && head,next.next != null){
+           ListNode n1 = head.next;
+           ListNode n2 = head.next.next;
+           head.next = n2;
+           n1.next = n2.next;
+           n2.next = n1;
+           head = n1;
+
+        }
+       return dump.next;
+    }
+
+
+    /**
+     * 判断是否有环
+     * @param head
+     * @return
+     */
+    public boolean hasCycle(ListNode head){
+        ListNode fast = head;
+        ListNode slow = head;
+
+        while(fast !=null&&slow != null&&fast.next!= null){
+            slow = slow.next;
+            fast = fast.next.next;
+            if(slow == fast){
+                return true;
+            }
+        }
+        return false;
+
+    }
+
+
 
     public static void main(String[] args) {
         ListNode[]  nodes = { new ListNode(1),new ListNode(2),new ListNode(3),new ListNode(4),new ListNode(5)};
