@@ -23,136 +23,136 @@ import com.alibaba.fastjson.JSON;
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
-public class ReverseList {
-    // ===========================================================
-    // Constants
-    // ===========================================================
-
-
-    // ===========================================================
-    // Fields
-    // ===========================================================
-
-    // ===========================================================
-    // Constructors
-    // ===========================================================
-
-
-    // ===========================================================
-    // Getter &amp; Setter
-    // ===========================================================
-
-    // ===========================================================
-    // Methods for/from SuperClass/Interfaces
-    // ===========================================================
-
-
-    // ===========================================================
-    // Methods
-    // ===========================================================
-
-    public ListNode* reverseList(ListNode* head){
-       //申请节点，pre和 cur，pre指向null
-       ListNode* pre = NULL;
-       ListNode* cur = head;
-        ListNode* tmp = NULL;
-       while(cur !=NULL){
-           //记录当前节点的下一个节点
-           tmp = cur.next;
-           //然后将当前节点指向pre
-           cur.next = pre;
-           //pre和cur节点都前进一位
-           pre= cur;
-           cur = tmp;
-       }
-       return pre;
-    }
-
-
-    public ListNode* reverseList2(ListNode* head){
-        //递归终止条件是当前为空，后者下一个节点为空
-        if(head == NULL || head->next== NULL){
-            return head;
-        }
-
-        //这里的cur就是最后一个节点
-        ListNode* cur = reverseList(head->next);
-
-        //这里请配合动画演示理解
-        //如果链表是 1-》2-》3-》4-》5，那么此时的cur就是5
-        //而head是4.head的下一个是5.下下一个就是空
-        //所以head.next.next 就是5-4
-        head->next->next = head;
-        //防止链表循环，需要将head.next设置为空
-        head->next = NULL;
-        //每层递归函数都返回cur，也就是最后一个节点
-        return cur;
-
-
-    }
-
-    /**
-     * 给定一个链表，两两交换其中相邻的节点，并返回交换后的链表。如：给定1-》2-》3-》4，你应该返回2-》1-》4-》3
-     * @param head
-     * @return
-     */
-    public ListNode swapPairs(ListNode head){
-
-       ListNode dump = new ListNode(0);
-       dump.next = head;
-       head = dump;
-
-       while(head.next != null && head,next.next != null){
-           ListNode n1 = head.next;
-           ListNode n2 = head.next.next;
-           head.next = n2;
-           n1.next = n2.next;
-           n2.next = n1;
-           head = n1;
-
-        }
-       return dump.next;
-    }
-
-
-    /**
-     * 判断是否有环
-     * @param head
-     * @return
-     */
-    public boolean hasCycle(ListNode head){
-        ListNode fast = head;
-        ListNode slow = head;
-
-        while(fast !=null&&slow != null&&fast.next!= null){
-            slow = slow.next;
-            fast = fast.next.next;
-            if(slow == fast){
-                return true;
-            }
-        }
-        return false;
-
-    }
-
-
-
-    public static void main(String[] args) {
-        ListNode[]  nodes = { new ListNode(1),new ListNode(2),new ListNode(3),new ListNode(4),new ListNode(5)};
-
-        System.out.println("----begin----");
-        System.out.println("nodes: "+ JSON.toJSON(nodes).toString());
-        ReverseList demo = new ReverseList();
-        for (int i=0; i<nodes.length; i++){
-            demo.reverseList(nodes[i]);
-        }
-
-        System.out.println("-----end----");
-        System.out.println("nodes: "+JSON.toJSON(nodes).toString());
-    }
-
-    // ===========================================================
-    // Inner and Anonymous Classes
-    // ===========================================================
-
-}
+//public class ReverseList {
+//    // ===========================================================
+//    // Constants
+//    // ===========================================================
+//
+//
+//    // ===========================================================
+//    // Fields
+//    // ===========================================================
+//
+//    // ===========================================================
+//    // Constructors
+//    // ===========================================================
+//
+//
+//    // ===========================================================
+//    // Getter &amp; Setter
+//    // ===========================================================
+//
+//    // ===========================================================
+//    // Methods for/from SuperClass/Interfaces
+//    // ===========================================================
+//
+//
+//    // ===========================================================
+//    // Methods
+//    // ===========================================================
+//
+//    public ListNode* reverseList(ListNode* head){
+//       //申请节点，pre和 cur，pre指向null
+//       ListNode* pre = NULL;
+//       ListNode* cur = head;
+//        ListNode* tmp = NULL;
+//       while(cur !=NULL){
+//           //记录当前节点的下一个节点
+//           tmp = cur.next;
+//           //然后将当前节点指向pre
+//           cur.next = pre;
+//           //pre和cur节点都前进一位
+//           pre= cur;
+//           cur = tmp;
+//       }
+//       return pre;
+//    }
+//
+//
+//    public ListNode* reverseList2(ListNode* head){
+//        //递归终止条件是当前为空，后者下一个节点为空
+//        if(head == NULL || head->next== NULL){
+//            return head;
+//        }
+//
+//        //这里的cur就是最后一个节点
+//        ListNode* cur = reverseList(head->next);
+//
+//        //这里请配合动画演示理解
+//        //如果链表是 1-》2-》3-》4-》5，那么此时的cur就是5
+//        //而head是4.head的下一个是5.下下一个就是空
+//        //所以head.next.next 就是5-4
+//        head->next->next = head;
+//        //防止链表循环，需要将head.next设置为空
+//        head->next = NULL;
+//        //每层递归函数都返回cur，也就是最后一个节点
+//        return cur;
+//
+//
+//    }
+//
+//    /**
+//     * 给定一个链表，两两交换其中相邻的节点，并返回交换后的链表。如：给定1-》2-》3-》4，你应该返回2-》1-》4-》3
+//     * @param head
+//     * @return
+//     */
+//    public ListNode swapPairs(ListNode head){
+//
+//       ListNode dump = new ListNode(0);
+//       dump.next = head;
+//       head = dump;
+//
+//       while(head.next != null && head,next.next != null){
+//           ListNode n1 = head.next;
+//           ListNode n2 = head.next.next;
+//           head.next = n2;
+//           n1.next = n2.next;
+//           n2.next = n1;
+//           head = n1;
+//
+//        }
+//       return dump.next;
+//    }
+//
+//
+//    /**
+//     * 判断是否有环
+//     * @param head
+//     * @return
+//     */
+//    public boolean hasCycle(ListNode head){
+//        ListNode fast = head;
+//        ListNode slow = head;
+//
+//        while(fast !=null&&slow != null&&fast.next!= null){
+//            slow = slow.next;
+//            fast = fast.next.next;
+//            if(slow == fast){
+//                return true;
+//            }
+//        }
+//        return false;
+//
+//    }
+//
+//
+//
+//    public static void main(String[] args) {
+//        ListNode[]  nodes = { new ListNode(1),new ListNode(2),new ListNode(3),new ListNode(4),new ListNode(5)};
+//
+//        System.out.println("----begin----");
+//        System.out.println("nodes: "+ JSON.toJSON(nodes).toString());
+//        ReverseList demo = new ReverseList();
+//        for (int i=0; i<nodes.length; i++){
+//            demo.reverseList(nodes[i]);
+//        }
+//
+//        System.out.println("-----end----");
+//        System.out.println("nodes: "+JSON.toJSON(nodes).toString());
+//    }
+//
+//    // ===========================================================
+//    // Inner and Anonymous Classes
+//    // ===========================================================
+//
+//}
