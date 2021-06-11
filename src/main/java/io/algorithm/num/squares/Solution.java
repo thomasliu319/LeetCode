@@ -30,14 +30,13 @@ import java.util.Arrays;
 public class Solution {
 
     public int numSquares(int n){
+        int num = (int) Math.sqrt(n);
         int[] dp = new int[n+1];
-        Arrays.fill(dp, 100001);
+        Arrays.fill(dp, n);
         dp[0] = 0;
-        int num = 1;
-        while(num*num <=n){
-            int k = num*num;
-            for(int i=1;i <=n;i++){
-                if(i >=k) dp[i]=Math.min(dp[i],dp[i-k]+1);
+        for(int i=1;i<=num;i++){
+            for(int j=1;j<=n;j++){
+                if(j-i*i>=0) dp[j]=Math.min(dp[j],dp[j-i*i]+1);
             }
         }
         return dp[n];
