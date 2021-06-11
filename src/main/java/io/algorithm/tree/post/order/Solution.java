@@ -1,5 +1,7 @@
 package io.algorithm.tree.post.order;
 
+import org.hibernate.validator.internal.engine.resolver.JPATraversableResolver;
+
 import java.util.*;
 
 /**
@@ -28,22 +30,35 @@ import java.util.*;
  */
 public class Solution {
 
-    public List<Integer> postorder(Node root){
-        if(root == null) return new ArrayList<Integer>();
-        Stack<Node> tmp = new Stack<>();
-        List<Integer> ret = new ArrayList<Integer>();
-        tmp.push(root);
-        while(!tmp.isEmpty()){
-            Node node = tmp.pop();
-            for(Node ans:node.children){
-                tmp.push(ans);
-            }
-            ret.add(node.val);
-        }
-        Collections.reverse(ret);
-//        ret.stream().forEach(System.out::println);
+//    public List<Integer> postorder(Node root){
+//        if(root == null) return new ArrayList<Integer>();
+//        Stack<Node> tmp = new Stack<>();
+//        List<Integer> ret = new ArrayList<Integer>();
+//        tmp.push(root);
+//        while(!tmp.isEmpty()){
+//            Node node = tmp.pop();
+//            for(Node ans:node.children){
+//                tmp.push(ans);
+//            }
+//            ret.add(node.val);
+//        }
+//        Collections.reverse(ret);
+////        ret.stream().forEach(System.out::println);
+//
+//        return ret;
+//    }
 
-        return ret;
+    public List<Integer> postorder(Node root){
+       if(root == null) return new ArrayList<Integer>();
+       List<Integer> ret = new ArrayList<>();
+       LinkedList<Node> nodes = new LinkedList<>();
+       nodes.add(root);
+       while(!nodes.isEmpty()){
+           root = nodes.removeLast();
+           ret.add(0, root.val);
+           nodes.addAll(root.children);
+       }
+       return ret;
     }
 
 }
