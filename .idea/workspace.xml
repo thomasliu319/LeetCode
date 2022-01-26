@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3afad7e3-9f2d-46ba-8910-26ea4aa8bb24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q11_containerWithMostWater/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q11_containerWithMostWater/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q11_containerWithMostWater/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q17_letterCombinations/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q17_letterCombinations/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q17_letterCombinations/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -222,7 +222,7 @@
       <workItem from="1642509888797" duration="5241000" />
       <workItem from="1642645488538" duration="47000" />
       <workItem from="1642646196445" duration="5913000" />
-      <workItem from="1642987648722" duration="3430000" />
+      <workItem from="1642987648722" duration="6222000" />
     </task>
     <servers />
   </component>
