@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3afad7e3-9f2d-46ba-8910-26ea4aa8bb24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q22_generateParenthesis/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q22_generateParenthesis/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q22_generateParenthesis/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q42_trapping_rain_water/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q42_trapping_rain_water/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q42_trapping_rain_water/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q42_trapping_rain_water/Solution3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q42_trapping_rain_water/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,6 +144,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q54_SpiralMatrix" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.algorithm.solution.q42_trapping_rain_water" />
       <recent name="io.algorithm.solution.q22_generateParenthesis" />
     </key>
   </component>
@@ -226,6 +229,7 @@
       <workItem from="1642645488538" duration="47000" />
       <workItem from="1642646196445" duration="5913000" />
       <workItem from="1642987648722" duration="12024000" />
+      <workItem from="1643271010001" duration="3365000" />
     </task>
     <servers />
   </component>
