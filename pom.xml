@@ -9,7 +9,6 @@
 	<packaging>jar</packaging>
 
 	<name>LeetCode</name>
-	<description>Demo project for Spring Boot</description>
 
 
 	<properties>
