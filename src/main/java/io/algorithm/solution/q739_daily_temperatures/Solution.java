@@ -4,7 +4,7 @@ import java.util.Stack;
 
 /**
  * @Author: jian.liu
- * @Description //739. 每日温度
+ * @Description //739. 每日温度 堆栈解法
  * @Date: 2022/2/5 14:08
  */
 public class Solution {
