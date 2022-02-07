@@ -1,4 +1,4 @@
-package io.algorithm.solution.income;
+package io.algorithm.solution.q121_best_time_to_buy_and_sell_stock;
 
 /**
  * 给定一个数组 prices ，它的第 i 个元素prices[i] 表示一支给定股票第 i 天的价格。
@@ -17,30 +17,26 @@ package io.algorithm.solution.income;
  * 输出：0
  * 解释：在这种情况下, 没有交易完成, 所以最大利润为 0。
  */
-class Solution {
+class Solution2 {
+
     public int maxProfit(int[] prices) {
 
-        int minPrice = prices[0];
-        int max = 0;
-        for(int i=1;i<prices.length; i++){
-            if(minPrice> prices[i]){
-                minPrice = prices[i];
-            }
-            max = Math.max(max, prices[i]-minPrice);
-        }
+       int len = prices.length;
+       if(len < 2) return 0;
 
-        return max;
+       int[] dp = new int[2];
+
+       dp[0] = 0;
+       dp[1] = - prices[0];
+
+       for(int i =1; i< len; i++){
+
+           dp[0] = Math.max(dp[0], dp[1]+prices[i]);
+           dp[1] = Math.max(dp[1], -prices[i]);
+       }
+
+       return dp[0];
     }
 
-    public static void main(String[] args) {
-        Runtime r = Runtime.getRuntime();
-        r.gc();
-        long startMem = r.freeMemory();
-        int[] prices = {7,1,5,3,6,4};
-        Solution solution = new Solution();
-        System.out.println(solution.maxProfit(prices));
-        System.out.println("---------------------------------");
-        long orz = startMem - r.freeMemory();
-        System.out.println(orz);
-    }
+
 }
