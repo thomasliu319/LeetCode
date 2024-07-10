@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3afad7e3-9f2d-46ba-8910-26ea4aa8bb24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q80_/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q27_remove_element/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q27_remove_element/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q39_combination_sum/Deque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q39_combination_sum/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q39_combination_sum/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +58,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -120,8 +128,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/myspace/LeetCode",
-    "spring.configuration.checksum": "071fda8ffed879b16c3308d2133bac46"
+    "last_opened_file_path": "/Users/thomasliu/myspace/LeetCode",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "071fda8ffed879b16c3308d2133bac46",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -221,6 +234,7 @@
       <workItem from="1643271010001" duration="9371000" />
       <workItem from="1643530134791" duration="1326000" />
       <workItem from="1720528392129" duration="1740000" />
+      <workItem from="1720578459312" duration="2103000" />
     </task>
     <servers />
   </component>
@@ -269,12 +283,16 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="5e8a6642-09bb-4913-b875-665ae66e6bc4" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="5e8a6642-09bb-4913-b875-665ae66e6bc4">
           <value>
             <State>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -293,6 +311,7 @@
                   </entry>
                 </map>
               </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
             </State>
           </value>
         </entry>
@@ -301,11 +320,6 @@
             <State />
           </value>
         </entry>
-      </map>
-    </option>
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="5e8a6642-09bb-4913-b875-665ae66e6bc4" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
