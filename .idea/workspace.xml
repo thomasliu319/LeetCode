@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3afad7e3-9f2d-46ba-8910-26ea4aa8bb24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q209_min_array_len/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q209_min_array_len/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q209_min_array_len/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q120_minimum_total/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q120_minimum_total/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,13 +154,13 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.io.algorithm.solution.q209_min_array_len.Solution2">
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.algorithm.solution.q54_SpiralMatrix.Solution" />
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.algorithm.solution.q120_minimum_total.Solution" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.algorithm.solution.q54_SpiralMatrix.*" />
+          <option name="PATTERN" value="io.algorithm.solution.q120_minimum_total.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.io.algorithm.solution.q209_min_array_len.Solution2" />
         <item itemvalue="Application.io.algorithm.solution.q209_min_array_len.Solution" />
         <item itemvalue="Application.io.algorithm.solution.q189_rotate.Solution" />
         <item itemvalue="Application.Solution2" />
-        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +261,7 @@
       <workItem from="1643271010001" duration="9371000" />
       <workItem from="1643530134791" duration="1326000" />
       <workItem from="1720528392129" duration="1740000" />
-      <workItem from="1720578459312" duration="14845000" />
+      <workItem from="1720578459312" duration="17900000" />
     </task>
     <servers />
   </component>
