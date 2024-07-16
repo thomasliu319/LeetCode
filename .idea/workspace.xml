@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3afad7e3-9f2d-46ba-8910-26ea4aa8bb24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q125_is_palindrome/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q125_is_palindrome/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q209_min_array_len/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q209_min_array_len/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q209_min_array_len/Solution2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,39 +155,13 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.io.algorithm.solution.q189_rotate.Solution">
-    <configuration name="ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.algorithm.collection.ReverseList.ReverseList" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.algorithm.collection.ReverseList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.io.algorithm.solution.q209_min_array_len.Solution2">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.algorithm.solution.q54_SpiralMatrix.Solution" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.algorithm.solution.q54_SpiralMatrix.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.algorithm.dp.stock.income.Solution" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.algorithm.dp.stock.income.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,13 +195,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="io.algorithm.solution.q209_min_array_len.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.algorithm.solution.q209_min_array_len.Solution" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.algorithm.solution.q209_min_array_len.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="io.algorithm.solution.q209_min_array_len.Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.algorithm.solution.q209_min_array_len.Solution2" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.algorithm.solution.q209_min_array_len.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.io.algorithm.solution.q209_min_array_len.Solution2" />
+        <item itemvalue="Application.io.algorithm.solution.q209_min_array_len.Solution" />
         <item itemvalue="Application.io.algorithm.solution.q189_rotate.Solution" />
         <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.ReverseList" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +262,7 @@
       <workItem from="1643271010001" duration="9371000" />
       <workItem from="1643530134791" duration="1326000" />
       <workItem from="1720528392129" duration="1740000" />
-      <workItem from="1720578459312" duration="12010000" />
+      <workItem from="1720578459312" duration="14845000" />
     </task>
     <servers />
   </component>
