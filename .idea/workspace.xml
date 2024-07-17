@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3afad7e3-9f2d-46ba-8910-26ea4aa8bb24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q120_minimum_total/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q120_minimum_total/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q9_is_palindrome/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q9_is_palindrome/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,26 +153,13 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.io.algorithm.solution.q9_is_palindrome.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.algorithm.solution.q120_minimum_total.Solution" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.algorithm.solution.q120_minimum_total.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.algorithm.solution.q169_major_element.Solution2" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.algorithm.solution.q169_major_element.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,13 +206,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="io.algorithm.solution.q9_is_palindrome.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.algorithm.solution.q9_is_palindrome.Solution" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.algorithm.solution.q9_is_palindrome.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.io.algorithm.solution.q9_is_palindrome.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.io.algorithm.solution.q209_min_array_len.Solution2" />
         <item itemvalue="Application.io.algorithm.solution.q209_min_array_len.Solution" />
         <item itemvalue="Application.io.algorithm.solution.q189_rotate.Solution" />
-        <item itemvalue="Application.Solution2" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +260,7 @@
       <workItem from="1643271010001" duration="9371000" />
       <workItem from="1643530134791" duration="1326000" />
       <workItem from="1720528392129" duration="1740000" />
-      <workItem from="1720578459312" duration="17900000" />
+      <workItem from="1720578459312" duration="19903000" />
     </task>
     <servers />
   </component>
