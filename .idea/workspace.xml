@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3afad7e3-9f2d-46ba-8910-26ea4aa8bb24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q66_plus_one/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q66_plus_one/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q9_is_palindrome/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q392_is_subsequence/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q392_is_subsequence/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q392_is_subsequence/Solution2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,9 +55,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -120,23 +120,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/thomasliu/myspace/LeetCode",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "spring.configuration.checksum": "071fda8ffed879b16c3308d2133bac46",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/thomasliu/myspace/LeetCode&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;071fda8ffed879b16c3308d2133bac46&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -155,7 +155,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.io.algorithm.solution.q66_plus_one.Solution">
+  <component name="RunManager" selected="Application.io.algorithm.solution.q392_is_subsequence.Solution2">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.algorithm.solution.q120_minimum_total.Solution" />
       <module name="LeetCode" />
@@ -182,12 +182,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="io.algorithm.solution.q209_min_array_len.Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.algorithm.solution.q209_min_array_len.Solution2" />
+    <configuration name="io.algorithm.solution.q392_is_subsequence.Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.algorithm.solution.q392_is_subsequence.Solution2" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.algorithm.solution.q209_min_array_len.*" />
+          <option name="PATTERN" value="io.algorithm.solution.q392_is_subsequence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.io.algorithm.solution.q392_is_subsequence.Solution2" />
         <item itemvalue="Application.io.algorithm.solution.q66_plus_one.Solution" />
         <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.io.algorithm.solution.q9_is_palindrome.Solution" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.io.algorithm.solution.q209_min_array_len.Solution2" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +262,8 @@
       <workItem from="1643271010001" duration="9371000" />
       <workItem from="1643530134791" duration="1326000" />
       <workItem from="1720528392129" duration="1740000" />
-      <workItem from="1720578459312" duration="21193000" />
+      <workItem from="1720578459312" duration="21898000" />
+      <workItem from="1721613425723" duration="1254000" />
     </task>
     <servers />
   </component>
