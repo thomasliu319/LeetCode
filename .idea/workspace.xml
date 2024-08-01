@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3afad7e3-9f2d-46ba-8910-26ea4aa8bb24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q36_is_valid_sudoku/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q36_is_valid_sudoku/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q383_/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q383_/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,12 +47,12 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="localRepository" value="/opt/homebrew/Cellar/maven/3.8.1/repository" />
+        <option name="mavenHome" value="$USER_HOME$/software/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="/opt/homebrew/Cellar/maven/3.8.1/libexec/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
-  </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -155,7 +154,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.io.algorithm.solution.q383_can_construct.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.algorithm.solution.q45_jump.Solution" />
       <module name="LeetCode" />
@@ -169,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.algorithm.solution.q9_is_palindrome.Solution2" />
+    <configuration name="io.algorithm.solution.q228_summary_ranges.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.algorithm.solution.q228_summary_ranges.Solution" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.algorithm.solution.q9_is_palindrome.*" />
+          <option name="PATTERN" value="io.algorithm.solution.q228_summary_ranges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,12 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="io.algorithm.solution.q228_summary_ranges.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.algorithm.solution.q228_summary_ranges.Solution" />
+    <configuration name="io.algorithm.solution.q383_can_construct.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.algorithm.solution.q383_can_construct.Solution" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.algorithm.solution.q228_summary_ranges.*" />
+          <option name="PATTERN" value="io.algorithm.solution.q383_can_construct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,26 +220,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="LeetCode" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.io.algorithm.solution.q383_can_construct.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.io.algorithm.solution.q228_summary_ranges.Solution" />
         <item itemvalue="Application.io.algorithm.solution.q392_is_subsequence.Solution2" />
         <item itemvalue="Application.io.algorithm.solution.q66_plus_one.Solution" />
-        <item itemvalue="Application.Solution2" />
       </list>
     </recent_temporary>
   </component>
@@ -277,8 +263,7 @@
       <workItem from="1720528392129" duration="1740000" />
       <workItem from="1720578459312" duration="21898000" />
       <workItem from="1721613425723" duration="7085000" />
-      <workItem from="1721985632179" duration="4087000" />
-      <workItem from="1722493092708" duration="3015000" />
+      <workItem from="1721985632179" duration="5985000" />
     </task>
     <servers />
   </component>
@@ -327,12 +312,16 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="5e8a6642-09bb-4913-b875-665ae66e6bc4" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="5e8a6642-09bb-4913-b875-665ae66e6bc4">
           <value>
             <State>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -351,6 +340,7 @@
                   </entry>
                 </map>
               </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
             </State>
           </value>
         </entry>
@@ -359,11 +349,6 @@
             <State />
           </value>
         </entry>
-      </map>
-    </option>
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="5e8a6642-09bb-4913-b875-665ae66e6bc4" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
