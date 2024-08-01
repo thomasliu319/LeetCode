@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3afad7e3-9f2d-46ba-8910-26ea4aa8bb24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q45_jump/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q45_jump/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q36_is_valid_sudoku/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/algorithm/solution/q36_is_valid_sudoku/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,12 +48,12 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="alwaysUpdateSnapshots" value="true" />
-        <option name="localRepository" value="/opt/homebrew/Cellar/maven/3.8.1/repository" />
-        <option name="mavenHome" value="$USER_HOME$/software/apache-maven-3.8.1" />
-        <option name="userSettingsFile" value="/opt/homebrew/Cellar/maven/3.8.1/libexec/conf/settings.xml" />
+        <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -220,6 +221,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="LeetCode" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Solution" />
@@ -264,6 +278,7 @@
       <workItem from="1720578459312" duration="21898000" />
       <workItem from="1721613425723" duration="7085000" />
       <workItem from="1721985632179" duration="4087000" />
+      <workItem from="1722493092708" duration="3015000" />
     </task>
     <servers />
   </component>
@@ -312,16 +327,12 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="5e8a6642-09bb-4913-b875-665ae66e6bc4" value="TOOL_WINDOW" />
-      </map>
-    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="5e8a6642-09bb-4913-b875-665ae66e6bc4">
           <value>
             <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -340,7 +351,6 @@
                   </entry>
                 </map>
               </option>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
             </State>
           </value>
         </entry>
@@ -349,6 +359,11 @@
             <State />
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="5e8a6642-09bb-4913-b875-665ae66e6bc4" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
